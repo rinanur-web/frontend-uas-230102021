@@ -1,9 +1,9 @@
 @extends('dashboard.dashboard')
 
 @section('content')
-<h2>Edit Matkul</h2>
+<h2>Edit Mahasiswa</h2>
 
-<form action="{{ url('/matkul/' . $matkul['kode_matkul']) }}" method="POST">
+<form action="{{ url('/mahasiswa/' . $matkul['kode_matkul']) }}" method="POST">
     @csrf
     @method('PUT')
     <div class="mb-3">
