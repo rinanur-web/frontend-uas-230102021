@@ -7,7 +7,7 @@
     @csrf
     @method('PUT')
     <div class="mb-3">
-        <label>Kode matkul</label>
+        <label>Kode Mahasiswa</label>
         <input type="text" name="kode_matkul" value="{{ $matkul['kode_matkul'] }}" class="form-control">
     </div>
     <div class="mb-3">
